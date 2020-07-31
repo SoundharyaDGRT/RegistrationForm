@@ -1,5 +1,9 @@
-.container_fluid_decor{
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header , footer{
     background: black;
     color: whitesmoke;
     text-align: center;
+
 }
