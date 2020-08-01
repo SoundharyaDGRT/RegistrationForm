@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1>SATHYABAMA INSTITUTE OF SCIENCE AND TECHNOlOGY</h1>
+    
         <h2>REGISTRATION FORM</h2>
     </header>
 
@@ -21,19 +21,23 @@
         <form action="/action_page.php">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="name" class="form-control" placeholder="Enter name" id="name">
+                <input type="name" class="form-control" placeholder="Enter name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="reg">Register number:</label>
+                <input type="registernumber" class="form-control" placeholder="Enter register number" id="reg" required>
             </div>
             <div class="form-group">
                 <label for="department">Department:</label>
-                <input type="department" class="form-control" placeholder="Enter department" id="department">
+                <input type="department" class="form-control" placeholder="Enter department" id="department" required>
             </div>
             <div class="form-group">
                 <label for="email">Email address:</label>
-                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                <input type="email" class="form-control" placeholder="Enter email" id="email" required>
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
-                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd" required>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
